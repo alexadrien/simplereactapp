@@ -29,6 +29,7 @@ const currenciesArray = [
   "CNY",
   "CZK",
   "DKK",
+  "EUR",
   "GBP",
   "HKD",
   "HRK",
