@@ -100,7 +100,7 @@ class App extends Component {
   render() {
     return (<MuiThemeProvider>
       <div>
-        <AppBar title="Formation Sipios - test buil"/>
+        <AppBar title="Formation Sipios"/>
         <Paper className="paper" zDepth={2}>
           <div id="requestSettings">
             <SelectField onChange={this.handleCurrencyChange} value={this.state.currencyValue} floatingLabelText="Currency">
