@@ -20,40 +20,8 @@ import {
   TableRowColumn
 } from 'material-ui/Table';
 
-const currenciesArray = [
-  "AUD",
-  "BGN",
-  "BRL",
-  "CAD",
-  "CHF",
-  "CNY",
-  "CZK",
-  "DKK",
-  "EUR",
-  "GBP",
-  "HKD",
-  "HRK",
-  "HUF",
-  "IDR",
-  "ILS",
-  "INR",
-  "JPY",
-  "KRW",
-  "MXN",
-  "MYR",
-  "NOK",
-  "NZD",
-  "PHP",
-  "PLN",
-  "RON",
-  "RUB",
-  "SEK",
-  "SGD",
-  "THB",
-  "TRY",
-  "USD",
-  "ZAR"
-];
+const Currencies = require('./currencies.js');
+const currenciesArray = Currencies.currenciesArray;
 
 const currencies = currenciesArray.map((item) => <MenuItem key={item} value={item} primaryText={item}/>);
 
