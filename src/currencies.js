@@ -1,5 +1,5 @@
 module.exports.currenciesArray = [
-  "AUD",
+  // "AUD",
   "BGN",
   "BRL",
   "CAD",
